@@ -1,10 +1,10 @@
 {
   "uuid": "e64be4b0cb77769ccb7aae3fe4c53f5b",
-  "path": "Offline/THQ Right Throttle I2C",
+  "path": "Offline/THQ%20Right%20Throttle%20I2C",
   "name": "THQ Right Throttle I2C",
   "content": "Modified version of existing right throttle main board, updated to use i2c communication to upgraded warthog slew sensor in place of the Arduino joystick. This sensor requires the use of a 3.3V Pro Micro board, or implementation of a 3.3V regulator for the power going to the sensor. This first version will use a 3.3V Arduino",
   "created_at": "2024-05-27 17:39:46",
-  "updated_at": "2024-06-18 14:19:53",
+  "updated_at": "2025-11-08 00:27:49",
   "stick": "",
   "documents": [
     {
@@ -19,7 +19,7 @@
         "7ae8c0ee28654898ac5e51d4df53cec5": 1,
         "93b44d62463c4c9c82dd7108c8ee7d73": 1,
         "92c32ceaaac84139add7ebda884f0a47": 1,
-        "ffe0a82ef66541869b5acc80eab6aa3d": 2
+        "1211838e851d4b2dbf062e01d5d8aece": 2
       },
       "BOM": [
         [
@@ -35,14 +35,10 @@
           "HDR-M-2.54_1X8",
           "J_BUTTONS",
           {
-            "Supplier Part": "C190820",
-            "Supplier": "LCSC",
-            "Manufacturer": "",
             "Manufacturer Part": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "HDR-M-2.54_1x8",
-            "puuid": "fb11a1cdebf6433b8a3c664a100689e6",
-            "uuid": "92c32ceaaac84139add7ebda884f0a47"
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C190820"
           }
         ],
         [
@@ -51,14 +47,10 @@
           "HDR-M-2.54_1X6",
           "J_HAT",
           {
-            "Supplier Part": "C190819",
-            "Supplier": "LCSC",
-            "Manufacturer": "",
             "Manufacturer Part": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "HDR-M-2.54_1x6",
-            "puuid": "df3ca37cb13d499cb713e9aa6fdd0c7b",
-            "uuid": "93b44d62463c4c9c82dd7108c8ee7d73"
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C190819"
           }
         ],
         [
@@ -68,52 +60,41 @@
           "J_SLEW",
           {
             "Manufacturer Part": "Molex Picoblade 5P",
-            "Contributor": "PantherLtd",
-            "spiceSymbolName": "Molex Picoblade 5P",
-            "puuid": "f4a6dfe209c1438bb1318b218fc9c632",
-            "uuid": "7ae8c0ee28654898ac5e51d4df53cec5"
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
-          "10kΩ",
+          "2.7kΩ",
           2,
-          "R0805",
+          "RES-TH_BD2.4-L6.3-P10.30-D0.6",
           "R1,R2",
           {
-            "Contributor": "LCSC",
+            "Manufacturer Part": "RNF14JTD2K70",
+            "Manufacturer": "SEI(Stackpole Electronics Inc.)",
             "Supplier": "LCSC",
-            "Supplier Part": "C186277",
-            "Manufacturer": "KOA",
-            "Manufacturer Part": "RN73H2ATTD1002B25",
-            "JLCPCB Part Class": "Extended Part",
-            "spiceSymbolName": "RN73H2ATTD1002B25",
-            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
-            "uuid": "ffe0a82ef66541869b5acc80eab6aa3d"
+            "Supplier Part": "C2586268"
           }
         ],
         [
           "IC - ARDUINO PRO MICRO",
           1,
           "ARDUINOPROMICRO",
-          "U_CTRLR",
+          "U_PROMICRO",
           {
-            "Manufacturer": "",
             "Manufacturer Part": "",
-            "Supplier Part": "",
+            "Manufacturer": "",
             "Supplier": "",
-            "link": "",
-            "Contributor": "BauerTechnology",
-            "spiceSymbolName": "IC - ARDUINO PRO MICRO",
-            "puuid": "9e1109ccc07843a3af7eab17670ea305",
-            "uuid": "5824e76cf8244fdb8c1fa5646a05fe0d"
+            "Supplier Part": ""
           }
         ]
       ],
-      "updateTime": 1718684032,
+      "updateTime": 1762521320,
       "createTime": 1716795587,
       "histories": [],
       "created_at": "2024-05-27 17:39:47",
-      "updated_at": "2024-06-18 14:13:52"
+      "updated_at": "2025-11-08 00:15:20"
     },
     {
       "uuid": "c26568aca86d9236aa6a8ce443c8025c",
@@ -125,23 +106,23 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "b60f399a7a7e41848b2be1eb49c79141": 2,
+        "2915f1f0a54941d7b912decfe617b47f": 2,
         "fb11a1cdebf6433b8a3c664a100689e6": 1,
         "df3ca37cb13d499cb713e9aa6fdd0c7b": 1,
         "f4a6dfe209c1438bb1318b218fc9c632": 1,
         "9e1109ccc07843a3af7eab17670ea305": 1
       },
       "BOM": [],
-      "updateTime": 1718684393,
+      "updateTime": 1762522069,
       "createTime": 1716797549,
       "histories": [],
       "created_at": "2024-05-27 18:12:29",
-      "updated_at": "2024-06-18 14:19:53"
+      "updated_at": "2025-11-08 00:27:49"
     }
   ],
   "sort": [],
   "title": "THQ Right Throttle I2C",
   "foldername": "THQ Right Throttle I2C",
   "schfilename": "THQ Right Throttle I2C.json",
-  "schfilemtime": 1718684032471
+  "schfilemtime": 1762521320109
 }

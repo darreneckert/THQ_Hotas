@@ -4,7 +4,7 @@
   "name": "THQ Right Throttle I2C",
   "content": "Modified version of existing right throttle main board, updated to use i2c communication to upgraded warthog slew sensor in place of the Arduino joystick. This sensor requires the use of a 3.3V Pro Micro board, or implementation of a 3.3V regulator for the power going to the sensor. This first version will use a 3.3V Arduino",
   "created_at": "2024-05-27 17:39:46",
-  "updated_at": "2025-02-17 19:42:13",
+  "updated_at": "2025-11-08 00:31:25",
   "stick": "",
   "documents": [
     {
@@ -90,11 +90,11 @@
           }
         ]
       ],
-      "updateTime": 1739775075,
+      "updateTime": 1762521320,
       "createTime": 1716795587,
       "histories": [],
       "created_at": "2024-05-27 17:39:47",
-      "updated_at": "2025-02-17 17:51:15"
+      "updated_at": "2025-11-08 00:15:20"
     },
     {
       "uuid": "c26568aca86d9236aa6a8ce443c8025c",
@@ -113,16 +113,16 @@
         "9e1109ccc07843a3af7eab17670ea305": 1
       },
       "BOM": [],
-      "updateTime": 1739781733,
+      "updateTime": 1762522285,
       "createTime": 1716797549,
       "histories": [],
       "created_at": "2024-05-27 18:12:29",
-      "updated_at": "2025-02-17 19:42:13"
+      "updated_at": "2025-11-08 00:31:25"
     }
   ],
   "sort": [],
   "title": "THQ Right Throttle I2C",
   "foldername": "THQ Right Throttle I2C",
   "schfilename": "THQ Right Throttle I2C.json",
-  "schfilemtime": 1739775075045
+  "schfilemtime": 1762521320109
 }

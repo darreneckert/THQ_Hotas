@@ -1,18 +1,15 @@
 {
-  "5b1007ff2f37fb02c9bb7277d75f4780": "Shift Register Board",
-  "9d1fc7a3fb34d46f84fea47aa7e1a936": "Shift Register Board\\Shift Register Board.json?Sheet_1",
-  "785581279c477411261baafb99fb4e0d": "Shift Register Board\\PCB_Shift Register Board.json",
   "e64be4b0cb77769ccb7aae3fe4c53f5b": "THQ Right Throttle I2C",
-  "a7213d3bdc3d1bd5612ac495f78255f1": "THQ Right Throttle I2C\\THQ Right Throttle I2C.json?Main Board",
-  "c26568aca86d9236aa6a8ce443c8025c": "THQ Right Throttle I2C\\PCB_THQ Right Throttle I2C.json",
+  "a7213d3bdc3d1bd5612ac495f78255f1": "THQ Right Throttle I2C/THQ Right Throttle I2C.json?Main Board",
+  "c26568aca86d9236aa6a8ce443c8025c": "THQ Right Throttle I2C/PCB_THQ Right Throttle I2C.json",
   "f19d3d11b7d5b01e428d3e8c7eec78a2": "THQ Right Throttle Main Board",
-  "aacb19870ac25d681a6148e88f3dc70f": "THQ Right Throttle Main Board\\THQ Right Throttle Main Board.json?Main_Board",
-  "6c5a847ff39c85550b4369422448cf36": "THQ Right Throttle Main Board\\PCB_THQ Right Throttle Main Board.json",
-  "f85082f3bd19dc51defd810e3d250c81": "THQ Right Throttle Main Board\\PCB_THQ Right Throttle Main Board_2.json",
+  "aacb19870ac25d681a6148e88f3dc70f": "THQ Right Throttle Main Board/THQ Right Throttle Main Board.json?Main_Board",
+  "6c5a847ff39c85550b4369422448cf36": "THQ Right Throttle Main Board/PCB_THQ Right Throttle Main Board.json",
+  "f85082f3bd19dc51defd810e3d250c81": "THQ Right Throttle Main Board/PCB_THQ Right Throttle Main Board_2.json",
   "6066edd8125716f79e729fba1da73f70": "THQ Right Throttle Switches Board",
-  "8439d81a19efa5c5476f870572ffbc58": "THQ Right Throttle Switches Board\\THQ Right Throttle Switches Board.json?Switches Board",
-  "00d9e48941fc6a1cd42a99c3569373c5": "THQ Right Throttle Switches Board\\PCB_THQ Right Throttle Switches Board.json",
+  "8439d81a19efa5c5476f870572ffbc58": "THQ Right Throttle Switches Board/THQ Right Throttle Switches Board.json?Switches Board",
+  "00d9e48941fc6a1cd42a99c3569373c5": "THQ Right Throttle Switches Board/PCB_THQ Right Throttle Switches Board.json",
   "9749983a7765f483a9fd6a6843aa1e6f": "THQRight Throttle Hat Board",
-  "485827d8c992ea6fac412fdd199a2b76": "THQRight Throttle Hat Board\\THQRight Throttle Hat Board.json?Hat Board",
-  "49cd77e50205ea6415da05f3aae52841": "THQRight Throttle Hat Board\\PCB_THQRight Throttle Hat Board.json"
+  "485827d8c992ea6fac412fdd199a2b76": "THQRight Throttle Hat Board/THQRight Throttle Hat Board.json?Hat Board",
+  "49cd77e50205ea6415da05f3aae52841": "THQRight Throttle Hat Board/PCB_THQRight Throttle Hat Board.json"
 }
