@@ -19,7 +19,7 @@ volatile byte YN_REG   = 0x15;  // Negative Y Reg
 
 const int uBtns    = 9;         // Number of buttons on the device
 const int hBtns    = 4;         // Hat switches (U, D, L, R)
-const int dTime    = 100;       // Delay time between loops
+const int dTime    = 75;       // Delay time between loops
 int i;                          // Generic counter variable
 
 int xSlew = 0;                  // Slew X-Axis value;
@@ -72,14 +72,24 @@ void setup() {
     sHat_LastState[i] = 0;
   }
 
+  THQ.setXAxisRange(-127, 127);
+  THQ.setYAxisRange(-127, 127);
+
+
   THQ.begin(initAutoSendState);
 
 }
 
 void loop() {
   // Read X-Axis and Y-Axis values from slew via I2C
-  //ReadXAxis();
-  //ReadYAxis();
+  char X, Y;
+
+  WriteI2CReg(SLEW_ADR, X_REG);
+  X = ReadXAxis();  
+  WriteI2CReg(SLEW_ADR, Y_REG);
+  Y = ReadYAxis();
+  THQ.setXAxis(int(X));
+  THQ.setYAxis(int(Y));
 
   // Check for change in state of each hat direction and if it has changed send new state to HID
   for (i=0; i<hBtns; i++)  {
@@ -178,8 +188,20 @@ void SlewInit() {
   char X, Y;                
   char xTemp=0, yTemp=0;
   byte temp;
-  ReadXAxis();  
-  ReadYAxis(); 
+  WriteI2CReg(SLEW_ADR, X_REG);
+  X = ReadXAxis();  
+  WriteI2CReg(SLEW_ADR, Y_REG);
+  Y = ReadYAxis(); 
+
+  THQ.setXAxis(int(X));
+  THQ.setYAxis(int(Y));
+
+  Serial.print("Init X val = ");
+  Serial.println(int(X));
+
+  Serial.print("Init Y val = ");
+  Serial.println(int(Y));
+
   delay(5);
   for (byte i = 0; i<4; i++)
   {
